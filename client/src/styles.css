@@ -1,0 +1,248 @@
+/* src/styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .button {
+    background-color: #d32f2f; /* Primary red */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #b71c1c;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-container {
+      max-width: 500px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-title{
+      text-align: center;
+      color: #d32f2f;
+      margin-bottom: 20px;
+  }
+
+  /* src/styles.css */
+
+/* ... (previous styles) ... */
+
+.home-container {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  margin-top: 0;
+  padding-top: 0; /* Light background */
+}
+
+.home-title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #d32f2f; /* Primary red */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home-subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.home-button {
+  background-color: #d32f2f;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 0 10px;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-button:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.heart-icon {
+  font-size: 5rem;
+  color: #d32f2f;
+  margin-bottom: 30px;
+  animation: pulse 2s infinite ease-in-out;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
+
+.why-donate-section {
+  background-color: white;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+}
+
+.why-donate-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.why-donate-text {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* In your CSS file (e.g., home.css or a global stylesheet) */
+.navbar {
+  /* Your existing navbar styles */
+  border-bottom: 2px solid transparent; /* Start with transparent border */
+  background-image: linear-gradient(90deg, #EEEEEE, #F6F4F0); /* Replace with your desired colors */
+  background-clip: padding-box, border-box;
+  background-origin: padding-box, border-box;
+  margin-bottom: 0;
+  
+}
+
+.navbar .red-outline-button {
+    border-color: #d32f2f !important;
+    color: #d32f2f !important;
+    transition: all 0.3s ease;
+  }
+  
+  .navbar .red-outline-button:hover {
+    background-color: #d32f2f !important;
+    color: white !important;
+  }
+  
+  .navbar .red-primary-button {
+    background-color: #d32f2f !important;
+    border-color: #d32f2f !important;
+  }
+
+  /* ... (Your existing styles) ... */
+
+.statistics-section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f9fa; /* Light background for the section */
+  }
+  
+  .statistics-title {
+    color: #d32f2f; /* Red color matching your theme */
+    margin-bottom: 30px;
+  }
+  
+  .statistics-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .statistic-item {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .statistic-value {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #333;
+    display: block;
+  }
+  
+  .statistic-label {
+    font-size: 1.1em;
+    color: #777;
+    display: block;
+    margin-top: 10px;
+  }
+
+  
+
+  .container-marketing {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f8f9fa; /* Light background for the section */
+  }
+
+  .background-container {
+    background: url('https://img.freepik.com/premium-vector/red-white-gradient-background-1_635559-185.jpg') no-repeat center center;
+    background-size: cover;
+    min-height: 100vh; /* Ensures full viewport coverage */
+    padding: 50px 0; /* Adds spacing */
+  }
+  
+  .home-container, .statistics-section {
+    background: rgba(255, 255, 255, 0.85); /* Slight white overlay */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 900px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .btn-danger:hover {
+    background-color: #b02323; /* Darker shade on hover */
+    border-color: #b02323;
+}
+
+.card {
+  background-color: white; /* Or your desired card background */
+}
+
+body {
+  background-color: #f8f9fa; /* Or your desired background color */
+}
+
+
+  
+  
+  
+  
